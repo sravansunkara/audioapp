@@ -1,0 +1,124 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 16px;
+}
+
+audio {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #f5f5f5;
+}
+
+audio::-webkit-media-controls-play-button {
+  color: #333;
+}
+
+audio::-webkit-media-controls-timeline {
+  background-color: #f0f0f0;
+}
+
+audio::-webkit-media-controls-current-time-display {
+  color: #333;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+  color: #333;
+}
+
+audio::-webkit-media-controls-mute-button {
+  color: #333;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  background-color: #f0f0f0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #f0f0f0;
+}
+
+.container {
+  background-color: #f0f8ff; 
+}
+
+input[type="file"] {
+  background-color: #e6e6fa; 
+}
+
+audio {
+  background-color: #e0ffff; 
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #e0ffff; 
+}
+
+audio::-webkit-media-controls-timeline {
+  background-color: #e6e6fa;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  background-color: #e6e6fa;
+}
+
+li:hover {
+  background-color: #e6e6fa; 
+}
